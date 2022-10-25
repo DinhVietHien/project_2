@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.main {
+    width: 800px;
+    height: 500px;
+    background-color: aqua;
+    margin: auto;
+    padding: 0 40px;
+}
+.main_title {
+    text-align: center;
+    color:red;
+    padding-top:20px;
+}
+.main_content {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.main_avatar {
+    width: 200px;
+    height: 200px;
+    text-align: center;
+}
+.main_btn {
+    margin-top: 20px;
+    background-color: brown;
+    padding: 10px;
+    cursor: pointer;
+    border: none;
+}
+.main_button:hover {
+    background-color: yellow;
+}
+.main_info {
+    font-size: 18px;
+    line-height: 40px;
+}
+.avatar {
+    width: 200px;
+    height: 200px;
+    background-color: white;
+    text-align:center;
+    line-height: 200px;
+}
